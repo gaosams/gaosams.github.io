@@ -208,6 +208,10 @@ header .myRole {
     opacity: .7;
 }
 
+.portfolio .project:hover {
+    opacity: 1;
+}
+
 /* END PORTFOLIO */
 /* ABOUT ME */
 
