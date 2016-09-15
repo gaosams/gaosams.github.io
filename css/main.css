@@ -1,4 +1,4 @@
-body {
+/*body {
     margin: 60px auto;
     width: 70%;
 }
@@ -41,3 +41,362 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+*/
+
+
+
+/*BLOOOOOOP STUFF HERE*/
+
+
+/*TEXT*/
+
+h1, h2, header, body {
+    font-family: "Muli", sans-serif;
+    color: #404040;
+}
+
+.blue {
+    color: #7291d6;
+}
+
+h2 .tinyIcon {
+    font-size: 24px;
+    position: relative;
+    top: -3px;
+}
+
+/*END TEXT*/
+/* NAVIGATION */
+
+nav {
+    display: block;
+    -webkit- transition-property: color;
+    -webkit- transition-duration: .3s;
+    -webkit- transition-timing-function: ease;
+}
+
+.navbarColor {
+    background-color: #7291d6;
+    padding-top: 10px;
+}
+
+
+.icon-bar {  /*hamburger*/
+    background-color: white; 
+}
+
+nav div .myNavBar .navText, .navText{
+    color: #DCE4F5;
+    padding: 10px 15px;
+}
+
+nav div .myNavBar .navText:focus .active {
+    background-color: #647FBB;
+}
+
+nav div .myNavBar .navText:focus:not(.active) {
+    background-color: transparent;
+    /*override focus colors from bootstrap*/
+}
+
+nav div .myNavBar .navText:hover:not(.active){
+    background-color: transparent;
+    color: white;
+    /*override focus colors from bootstrap*/
+}
+
+nav div .myNavBar .active {
+    background-color: #647FBB;
+    color: white;}
+
+.navbar-brand {
+    color: white;
+}
+
+.navbar-brand:hover {
+    color: white;
+    background-color: transparent;
+}
+
+.invisible {
+    display: none;
+}
+
+/* END NAVIGATION */
+/* HEADER / BODY*/
+
+html, body { 
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.top {
+    background-color: #7291d6;
+    height: 100%;
+    min-height: 55vw;
+}
+
+header div {
+    position: relative;
+}
+
+.headerText {
+    top: -20px;
+    margin-top: 20%;
+}
+
+header .myName, header .myRole {
+    position: relative;
+    font-size: 60px;
+    letter-spacing: .075em;
+    opacity: 0;
+    color: white;
+    /*Montserrat, Inconsolata, Muli, Oxygen, 
+    Abel, Quicksand, Questrial, Play*/
+}
+
+header .myRole {
+    font-size: 30px;
+    letter-spacing: .35em;
+}
+
+.seeWork-btn, .seeWork-btn:focus {
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    margin-top: 5%;
+    color: #DCE4F5;
+    padding: 5px 80px;
+
+    border-style: solid;
+    border-color: #DCE4F5;
+    border-width: 2px;
+    border-radius: 5px;
+
+    letter-spacing: .2em;
+    opacity: 0;
+}
+
+.seeWork-btn:hover {
+    text-decoration: none;
+    color: white;
+    border-color: white;
+}
+
+@media (max-width: 380px){
+    .myName {font-size: 38px;}
+    .myRole {font-size: 18px;}
+    .seeWork-btn, .seeWork-btn:focus {padding: 5px 32px;}
+}
+
+/* END HEADER */
+/* PORTFOLIO */
+
+.portfolio {
+    padding: 20px 4% 60px 4%;
+}
+
+
+.portfolio .row {
+    padding-top: 2%;
+}
+
+.portfolio .project {
+    width: 100%;
+    padding: 4% 2%;
+}
+
+/* END PORTFOLIO */
+/* ABOUT ME */
+
+.profilePic {
+    border-radius: 3%;
+    width: 96%;
+    margin-top: 20px;
+    margin: 10px 2%;
+    margin-bottom: 50px;
+}
+
+.aboutMe {
+    padding: 200px 4%;
+    background-color: #eee;
+}
+
+body .aboutMe p {
+    font-family: sans-serif;
+    color: #777;
+    font-size: 15px;
+    line-height: 2em;
+    padding: .5em 2%;
+    letter-spacing: .4px;
+}
+
+
+/* END ABOUT ME */
+/* CONTACT ME */
+
+.contact {
+    padding: 70px 0;
+}
+
+.contact .letsChat {
+    margin-left: 8%;
+}
+
+.overlabel {
+    border: 0.1em solid;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+
+    color: #ccc;
+    display: block;
+    margin: 30px 8% 0 8%;
+    min-height: 2.2em;
+}
+
+.overlabel input, .overlabel textarea,
+.overlabel input:focus, .overlabel textarea:focus {
+    text-align: left;
+    font-size: 1em;
+    line-height: 2em;
+    padding: 0 0.5em;
+    margin: 0;
+    -webkit-appearance: none; /* prevent ios styling */
+    width: 100%; 
+    border: none; 
+    outline: none; /*gets rid of blue glow when in focus*/
+    font-weight: 200;
+    color: black;
+}
+
+.overlabel span {
+    color: transparent;
+    padding: 0 0.5em;
+    bottom: 30px;
+    position: relative;
+    top: 5px;
+    -webkit-transition-property: color top;
+    -webkit-transition-duration: .3s;
+    -webkit-transition-timing-function: ease-out;
+}
+
+.overlabel .infoEntered {
+    color: #7291d6;
+    padding: 0 0.5em;
+    position: relative;
+    top: -5px;
+    -webkit-transition-property: color top;
+    -webkit-transition-duration: .3s;
+    -webkit-transition-timing-function: ease-in;
+}
+
+.btn-primary, .btn-primary:focus, .contact .btn-primary:active{
+    background-color: transparent; 
+    color: #7291d6;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 3px;
+    border-color: #7291d6;
+    outline: none;
+    margin-top: 10px;
+    margin-left: 8%;
+    -webkit-transition-property: color top;
+    -webkit-transition-duration: .2s;
+    -webkit-transition-timing-function: ease-in;
+}
+
+.btn-primary:hover{
+    background-color: #7291d6; 
+    color: white;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 3px;
+    border-color: transparent;
+    margin-top: 10px;
+    margin-left: 8%;
+}
+
+.contact .btn-primary:active {
+    color: white;
+    background-color: #7291d6; 
+    box-shadow: inset 2px 2px 2px #566DA1;
+    border-color: transparent;
+}
+
+/* END CONTACT ME */
+/* FOOTER */
+
+footer {
+    padding-top: -10px;
+    display: block;
+    text-align: center;
+}
+
+.icon-border{
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #777;
+}
+
+.fa-linkedin {
+    padding: 10px 13px;
+}
+
+.fa-github-alt {
+    padding: 10px 12px;
+}
+
+i {
+    color: white;
+    -webkit-transition-property: color, background-color;
+    -webkit-transition-duration: .5s;
+    -webkit-transition-timing-function: linear;
+}
+
+i:hover {
+    color: #7291d6;
+    background-color: transparent;
+}
+
+.media-icon {
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+}
+
+.copyright {
+    margin-top: 20px;
+    padding: 20px 0;
+    background-color: #7291d6;
+    color: white;
+}
+
+/*END FOOTER*/
+/*BACK TO TOP BUTTON*/
+
+.up-btn {
+    background: none;
+    margin: 0;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    width: 41px;
+    height: 41px;
+    z-index: 100;
+    background-color: #7291d6;
+    border-radius: 20%;
+}
+
+.up-btn i {
+  font-size: 1.5em;
+  padding-top: 8px;
+  padding-left: 10px;
+  color: white;
+ 
+}
+
+/*END BACK TO TOP BUTTON*/
+
+
