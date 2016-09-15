@@ -206,6 +206,9 @@ header .myRole {
     width: 100%;
     padding: 4% 2%;
     opacity: .7;
+    -webkit-transition-property: opacity;
+    -webkit-transition-duration: .5s;
+    -webkit-transition-timing-function: linear;
 }
 
 .portfolio .project:hover {
