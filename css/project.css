@@ -4,21 +4,38 @@
   max-width: 1000px;
 }
 
+.chunk {
+  padding: 60px 0;
+}
+
 
 .navbarColor {
 	text-align: center;
 	padding-bottom: 7px;
-    font-size: 14px;
-    letter-spacing: .3em;
+  font-size: 14px;
+  letter-spacing: .3em;
+}
+/*  background-color: #7291d6;
+  -webkit- transition-property: background-color;
+  -webkit- transition-duration: 4s;
+  -webkit- transition-timing-function: ease;
 }
 
-.navbar-ex {
+.white {
+  background-color: white;
+  -webkit- transition-property: background-color;
+  -webkit- transition-duration: 4s;
+  -webkit- transition-timing-function: ease;
 }
+
+.blue {
+  background-color: #7291d6;
+}*/
 
 .navbar-ex:hover {
 	text-decoration: none;
-    color: white;
-    background-color: transparent;
+  color: white;
+  background-color: transparent;
 }
 
 
@@ -36,6 +53,15 @@
   margin-top: -10px;
 	font-size: 18px;
   text-align: center;
+}
+
+.mainFindingsTitle {
+  padding-top: 30px;
+}
+
+.mainFindings {
+  font-size: 18px;
+  font-weight: 600;
 }
 
 /*SLIDESHOW CSS*/

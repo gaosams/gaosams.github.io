@@ -1,3 +1,23 @@
+$(document).ready(function() {
+  console.log("project.js running");
+  //on scroll, run code
+  $(window).scroll(function() {
+    if ($(this).scrollTop() < 200) {
+      // $(".navbarColor").css("background-color", '#7291d6');
+      $("nav").removeClass('white');
+      console.log('turn blue');
+    }
+    else {
+      // $(".navbarColor").css("background-color", 'white');
+      $("nav").addClass('white');
+      
+      console.log('turn white');
+    }
+  })
+})
+
+
+
 
 // var Slideshow = function(className) {
 //   this.currentSlide = 1;
