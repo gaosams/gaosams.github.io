@@ -14,23 +14,26 @@
   padding-bottom: 7px;
   font-size: 14px;
   letter-spacing: .3em;
+  transition-property: background-color;
+  transition-duration: .6s;
+  transition-timing-function: ease;
 }
 /*  background-color: #7291d6;
   -webkit- transition-property: background-color;
   -webkit- transition-duration: 4s;
   -webkit- transition-timing-function: ease;
-}
+}*/
 
 .white {
   background-color: white;
-  -webkit- transition-property: background-color;
-  -webkit- transition-duration: 4s;
-  -webkit- transition-timing-function: ease;
+  transition-property: background-color;
+  transition-duration: .6s;
+  transition-timing-function: ease;
 }
 
 .blue {
   background-color: #7291d6;
-}*/
+}
 
 .navbar-ex:hover {
 	text-decoration: none;
