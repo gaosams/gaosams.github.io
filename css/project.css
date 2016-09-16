@@ -1,6 +1,6 @@
 
 .container {
-  padding: 0 5%;
+  padding: 50px 5%;
   max-width: 1000px;
 }
 
@@ -11,6 +11,7 @@
 
 .navbarColor {
 	text-align: center;
+  padding-bottom: 7px;
   font-size: 14px;
   letter-spacing: .3em;
 }
