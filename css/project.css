@@ -1,0 +1,100 @@
+
+.container {
+  padding: 0 5%;
+  max-width: 1000px;
+}
+
+
+.navbarColor {
+	text-align: center;
+	padding-bottom: 7px;
+    font-size: 14px;
+    letter-spacing: .3em;
+}
+
+.navbar-ex {
+}
+
+.navbar-ex:hover {
+	text-decoration: none;
+    color: white;
+    background-color: transparent;
+}
+
+
+.mainProjectImage {
+	padding: 20px 0;
+	width: 100%;
+}
+
+.projectTitle {
+	font-size: 28px;
+	text-align: center;
+}
+
+.titleTag {
+  margin-top: -10px;
+	font-size: 18px;
+  text-align: center;
+}
+
+/*SLIDESHOW CSS*/
+
+.carousel {
+  padding: 30px 0 60px 0;
+  width: 100%;
+}
+
+.carousel-control.left, .carousel-control.right {
+  background-image: none;
+  position: absolute;
+  padding: 0 0;
+  margin: 0 0;
+  color: blue;
+  opacity: .2;
+}
+
+.carousel-control.left {
+  left: -10%;
+}
+
+.carousel-control.right {
+  right: -10%;
+}
+
+
+/*.w3-content {
+  position: relative;
+  margin: 40px 0;
+  max-width: 1000px;
+}
+
+.mySlides {
+  text-align: center;
+  width: 100%;
+  -webkit- transition-property: opacity;
+  -webkit- transition-duration: .3s;
+  -webkit- transition-timing-function: ease;
+}
+
+.w3-btn-floating {
+  background-color: white;
+  color: blue;
+  border-radius: 5px;
+  text-align: center;
+  opacity: .5;
+}
+
+.leftButton {
+  position: absolute;
+  top: 50%;
+  left: -5%;
+}
+
+.rightButton {
+  position: absolute;
+  top: 50%;
+  right: -5%;
+}*/
+
+

@@ -15,7 +15,7 @@ $(document).ready(function() {
 
 	// position of each section
 	var navHeight = 60;
-	var portfolioTop = $('#portfolio').position().top - 2*navHeight;
+	var portfolioTop = $('#portfolio').position().top - navHeight*2;
 	var aboutMeTop = $('#aboutMe').position().top - navHeight;
 	var contactTop = $('#contact').position().top - navHeight;
 
@@ -112,12 +112,10 @@ $(document).ready(function() {
 
 	    //when typing
 	    $(this).on('input', function (){
-			if ($.trim(field.val()) == '') { 
+			if ($.trim(field.val()) == '') {
 	    		$(span).removeClass("infoEntered");
-	    		console.log("remove stuff");
-	    	} else { 
-	    		$(span).addClass("infoEntered"); 
-	    		console.log("add stuff");
+	    	} else {
+	    		$(span).addClass("infoEntered");
 	    	}
 	    });
 	});
