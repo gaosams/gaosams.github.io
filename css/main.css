@@ -50,7 +50,7 @@ nav {
 nav div .myNavBar .navText, .navText{
     color: #DCE4F5;
     padding: 10px 15px;
-    
+
 }
 
 nav div .myNavBar .navText:focus .active {
