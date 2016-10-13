@@ -11,17 +11,25 @@
 
 			<!-- CSS: w3schools-->
 			<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+
+			<!-- CSS: For Slideshows -->
+			<!-- <link href="/jesl/jesl.min.css" rel="stylesheet" media="screen" type="text/css"> -->
+
 			<!-- CSS: Custom -->
 			<link rel="stylesheet" type="text/css" href="css/main.css">
 			<link rel="stylesheet" type="text/css" href="css/project.css">
 	
 			<!-- ICONS: for social media icons -->
 			<script src="https://use.fontawesome.com/0f2c6dc569.js"></script>
-	
+
 			<!-- JQUERY: Google CDN -->
 			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 			<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
   			<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+  			<!-- JQUERY: For Slideshows -->
+  			<!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"> </script>
+			<script src="/jesl/jesl.min.js"> </script> -->
 	
 			<!-- JAVASCRIPT for Bootstrap -->
 			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
@@ -43,7 +51,7 @@
 			<div class="container">
 				<p class="projectTitle">{{ page.projectTitle }}</p>
 				<p class="titleTag"> {{ page.titleTag }}</p>
-				<img src="img/virtualAgents/scipr.jpg" class="text-center mainProjectImage"></img>
+				<img src="{{ page.headerImage }}" class="text-center mainProjectImage"></img>
 			
 				{{ content }}
 			
